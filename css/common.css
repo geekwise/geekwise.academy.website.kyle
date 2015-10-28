@@ -1,0 +1,177 @@
+@media screen and (min-width:800px){
+    button{
+        display:none;
+    }    
+    nav{
+        width:100%;
+    }        
+}
+@media screen and (max-width:799px){
+     nav{
+        display:none;
+        
+    }     
+    li{
+        width:100%;
+        background-color:#ffffff;
+    } 
+}
+
+@font-face {
+    font-family: 'franchise';
+    src: url('../fonts/franchise-bold-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'ciria';
+    src: url('../fonts/ciriabold-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+
+}
+html, body{
+    display: block;
+    margin: 0px;
+    padding: 0px;
+    background-color: #7a1501;
+}
+.head{
+    width: 100%;
+    background-color: #FFFFFF;
+    text-align:center;
+}
+ul{
+    text-transform: uppercase;
+    font-family: 'Lato', sans-serif;
+    font-weight: 700;
+    margin:0;
+    padding:0;
+}
+li{
+    list-style-type: none;
+    display: inline;
+}
+a{
+    text-decoration: none;
+    width: 8%;
+    display: inline-block;
+    background-color: #FFFFFF;
+    color: black;
+    text-align: center;
+    line-height: 55px;
+    height: 55px;
+    font-size: 1.6vw;
+}
+a:hover{
+    background-color: #f9da0c;
+}
+.signup{
+    background-color: #f9da0c;
+}
+.fourtwenty{
+    width:48vw;
+}
+header{
+    background-color: #FFFFFF;
+}
+button{
+    border-radius: .2em;
+    border: .05em solid #dddddd;
+    background-color: #ffffff;
+    color: #888888;
+    
+    float: right;
+    
+    margin-left: .5em;
+    margin-right: .5em;
+    margin-top: .5em;
+    
+    padding: .3em;
+    
+    transform: scale(1.3,.9);
+    font-size: 1em;
+}
+
+button::before{
+    content: 'III';
+    float: left;
+    transform: rotate(90deg);
+}
+button:focus{
+    outline: 10;
+    background-color: #dddddd;
+}
+button:hover{
+    background: #dddddd;
+}
+button:focus + nav{
+    display: block;
+    clear: both;
+    
+    margin-left: 30%;
+    margin-right: 30%;
+    
+    width: auto;
+    background-color: #ffffff;
+}
+.body{
+    width:100%;
+    height:600px;
+    background-color: #7a1501;
+    float:left;
+}
+p{
+    color: white;
+    margin: 0px;
+    padding: 0px;
+}
+.top_words{
+    margin-top:2.6%;
+    font-size: 2em;
+    text-align: center;
+}
+.bottom_words{
+    font-family:"ciria";
+    font-size:2.8em;
+    text-align:center;
+    margin:0 auto;
+    color:white;
+    text-transform:lowercase;
+}
+.learn{
+    float: left;
+    text-align: center;
+    margin:0;
+    border-right:1px solid white;
+}
+.sign{
+    float: left;
+    text-align: center;
+    margin:0;
+}
+.why{
+    float: left;
+    text-align: center;
+    margin:0;
+    border-left:1px solid white;
+}
+.learn, .sign, .why{
+    display:inline;
+    float: left;
+    width:calc(99%/3);
+    font-size:2vw;
+}
+.line{
+    width:40%;
+    margin:30px auto;
+    border-bottom:1px solid white;
+    height:1px;
+    font-size:.1em;
+    overflow:hidden;
+}
